@@ -55,6 +55,11 @@ example = [
     ["b","c","c"]]
 ans = sol.containsCycle(example)
 print(ans)  # False
-example = [["c","a","d"],["a","a","a"],["a","a","d"],["a","c","d"],["a","b","c"]]
+example = [
+    ["c","a","d"],
+    ["a","a","a"],
+    ["a","a","d"],
+    ["a","c","d"],
+    ["a","b","c"]]
 ans = sol.containsCycle(example)
 print(ans)  # True
